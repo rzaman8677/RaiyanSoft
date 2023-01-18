@@ -1,0 +1,92 @@
+body::-webkit-scrollbar {
+  width: 15px;      
+}
+
+body::-webkit-scrollbar-track {
+  background: rgb(25, 25, 25);   
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: blue;   
+  border-radius: 20px; 
+  border: 3px solid rgb(25, 25, 25); 
+}
+html, body {
+    overflow-x: hidden;
+    color: rgb(225, 225, 225);
+    margin: auto;
+    height: fit-content;
+    width:100%;
+    overflow-x:hidden;
+}
+
+#body{
+  background-color: #0F2027;
+  position: fixed;
+  left: 0;
+  background-image: linear-gradient(to right, #0F2027, #203A43, #2C5364);
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1000000000000000000000000000;
+  overflow-y: hidden;
+}
+
+#body2{
+  background-color: #0F2027;
+  position: fixed;
+  left: 0;
+  background-image: linear-gradient(to right, #0F2027, #203A43, #2C5364);
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1000000000000000000000000000;
+  overflow-y: hidden;
+}
+#content{
+    width: 93%;
+}
+.nav-link {
+    color: rgb(255, 255, 255) !important;
+    /* text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue; */
+  }
+  .nav-link:hover{
+    color: rgb(64, 0, 255) !important;
+    text-shadow: 1px 1px 2px rgb(255, 255, 255), 0 0 1em rgb(255, 21, 0), 0 0 0.2em rgb(0, 157, 255);
+  }
+  .navbar-brand {
+    color: rgb(255, 255, 255) !important;
+    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+  }
+
+  .footer {
+    background: #152f4f;
+    color: white;
+  }
+  .footer .links ul {
+    list-style-type: none;
+  }
+  .footer .links li a {
+    color: white;
+    transition: color 0.2s;
+  }
+  .footer .links li a:hover {
+    text-decoration: none;
+    color: #4180cb;
+  }
+  .footer .about-company i {
+    font-size: 25px;
+  }
+  .footer .about-company a {
+    color: white;
+    transition: color 0.2s;
+  }
+  .footer .about-company a:hover {
+    color: #4180cb;
+  }
+  .footer .location i {
+    font-size: 18px;
+  }
+  .footer .copyright p {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+  }

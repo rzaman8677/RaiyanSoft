@@ -1,0 +1,180 @@
+html, body {
+    overflow-x: hidden;
+    color: aliceblue;
+    margin: auto;
+    height: fit-content;
+    width:100%;
+    overflow-x:hidden;
+}
+
+#body{
+    position: fixed;
+    left: 0;
+    background-color: rgb(25, 25, 25);
+    bottom: 0;
+    width: 50%;
+    height: 100%;
+    z-index: -1000000000000000000000000000;
+    overflow-y: hidden;
+}
+
+#body2{
+    position: fixed;
+    left: 0;
+    background-color: rgb(25, 25, 25);
+    top: 0;
+    width: 50%;
+    height: 100%;
+    z-index: -1000000000000000000000000000;
+    overflow-y: hidden;
+}
+
+#body3{
+    position: fixed;
+    right: 0;
+    background-color: rgb(25, 25, 25);
+    top: 0;
+    width: 50%;
+    height: 100%;
+    z-index: -1000000000000000000000000000;
+    overflow-y: hidden;
+}
+
+#body4{
+    position: fixed;
+    right: 0;
+    background-color: rgb(25, 25, 25);
+    bottom: 0;
+    width: 50%;
+    height: 100%;
+    z-index: -1000000000000000000000000000;
+    overflow-y: hidden;
+}
+#content{
+    width: 93%;
+}
+.nav-link {
+    color: rgb(255, 255, 255) !important;
+    /* text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue; */
+  }
+  .nav-link:hover{
+    color: rgb(64, 0, 255) !important;
+    text-shadow: 1px 1px 2px rgb(255, 255, 255), 0 0 1em rgb(255, 21, 0), 0 0 0.2em rgb(0, 157, 255);
+  }
+  .navbar-brand {
+    color: rgb(255, 255, 255) !important;
+    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+  }
+  #title{
+    color: rgb(17, 17, 17) !important;
+  }
+  .contact-form-wrapper {
+    padding: 100px 0;
+  }
+  
+  .contact-form {
+    padding: 30px 40px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    max-width: 400px;
+  }
+  
+  .contact-form textarea {
+    resize: none;
+  }
+  
+  .contact-form .form-input,
+  .form-text-area {
+    background-color: #f0f4f5;
+    height: 50px;
+    padding-left: 16px;
+  }
+  
+  .contact-form .form-text-area {
+    background-color: #f0f4f5;
+    height: auto;
+    padding-left: 16px;
+  }
+  
+  .contact-form .form-control::placeholder {
+    color: #aeb4b9;
+    font-weight: 500;
+    opacity: 1;
+  }
+  
+  .contact-form .form-control:-ms-input-placeholder {
+    color: #aeb4b9;
+    font-weight: 500;
+  }
+  
+  .contact-form .form-control::-ms-input-placeholder {
+    color: #aeb4b9;
+    font-weight: 500;
+  }
+  
+  .contact-form .form-control:focus {
+    border-color: #3008c2;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.07), 0 0 8px #3e07d6;
+  }
+  
+  .contact-form .title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+  }
+  
+  .contact-form .description {
+    color: #aeb4b9;
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  .contact-form .submit-button-wrapper {
+    text-align: center;
+  }
+  
+  .contact-form .submit-button-wrapper input {
+    border: none;
+    border-radius: 4px;
+    background-color: #0b16df;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px 60px;
+    font-weight: 500;
+    letter-spacing: 2px;
+  }
+  
+  .contact-form .submit-button-wrapper input:hover {
+    background-color: #d30069;
+  }
+  .footer {
+    background: #152f4f;
+    color: white;
+  }
+  .footer .links ul {
+    list-style-type: none;
+  }
+  .footer .links li a {
+    color: white;
+    transition: color 0.2s;
+  }
+  .footer .links li a:hover {
+    text-decoration: none;
+    color: #4180cb;
+  }
+  .footer .about-company i {
+    font-size: 25px;
+  }
+  .footer .about-company a {
+    color: white;
+    transition: color 0.2s;
+  }
+  .footer .about-company a:hover {
+    color: #4180cb;
+  }
+  .footer .location i {
+    font-size: 18px;
+  }
+  .footer .copyright p {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+  }
