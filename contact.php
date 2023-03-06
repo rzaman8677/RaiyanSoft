@@ -67,6 +67,17 @@ $conn = null;
                 <li class="nav-item">
                     <a class="nav-link" href="privacy.html">Privacy Policy</a>
                 </li>
+<<<<<<< HEAD
+=======
+                    
+      <li class="nav-item">
+        <a class="nav-link" href="contact.php">Contact Us</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="disclaimer.html">Disclaimer</a>
+      </li>
+>>>>>>> 381a931 (order files)
             </ul>
           </div>
         </div>

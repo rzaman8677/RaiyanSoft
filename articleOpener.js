@@ -1,20 +1,20 @@
 $(document).ready(function(){
     $('#article1').click(function(){
-        window.open("BrainImplants.html", "_self");
+        window.open("warriors2023.html", "_self");
     });
     $('#article2').click(function(){
-        window.open("TechnologySocialInteractions.html", "_self");
+        window.open("5g.html", "_self");
     });
     $('#article3').click(function(){
-        window.open("SpaceTourism.html", "_self");
+        window.open("lineCity.html", "_self");
     });
     $('#article4').click(function(){
-        window.open("TechDisability.html", "_self");
+        window.open("positiveDroneDelivery.html", "_self");
     });
     $('#article5').click(function(){
-        window.open("SoccerSocialChange.html", "_self");
+        window.open("negativeDroneDelivery.html", "_self");
     });
     $('#article6').click(function(){
-        window.open("NFL_Peak.html", "_self");
+        window.open("jwt.html", "_self");
     });
 });
